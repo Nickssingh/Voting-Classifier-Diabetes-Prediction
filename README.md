@@ -14,6 +14,8 @@ Before performing EDA, we checked the dimension of the dataset and data types of
 
 1. About one third of the people in the dataset has diabetes, and this split-up of the ‘Outcome’ will enable our models to predict more accurately for both the classes (1 and 0) – as compared with our earlier datasets in which one of the classes formed only about 10% of the entire data.
 
+![](Voting_Classifier_Images/Outcome.png)
+
 2. We plotted the distribution of the features that we will try to incorporate in our models.
 
 3. We displayed one KDE plot to show the distribution of Glucose Concentration separately for people with and without Diabetes, and then we used Pair Plot to plot the distribution (for with and without diabetes) of other features as well. Pair Plots also show scatter plots of the variables.
