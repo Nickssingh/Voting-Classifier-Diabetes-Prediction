@@ -52,4 +52,7 @@ Following are the accuracies of the base models and the Voting Classifier.
 - Voting Classifier without weights improved the accuracy to 80.52%.
 - Voting Classifier with weights slightly improved the accuracy to 81.39%. Following weights were given to the different base models. Heavier weights were assigned to the better performing models.
 
-#### Model            Weight        
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
