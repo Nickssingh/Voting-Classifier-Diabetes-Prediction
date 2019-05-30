@@ -24,12 +24,12 @@ _Models and Performance_
 
 1. To build our model, we made 30% of the dataset test data and the remainder training. Moreover, we also scaled the features using standardization because the features varied in magnitude and range. Scaling enabled us to have same magnitude levels for all the features.
 
-2. Finally, we developed predict models using the following classifiers
-a. Logistic Regression
-b. Decision Tree
-c. KNN
-d. Random Forest
-e. Adaptive Boosting
+2. Finally, we developed predict models using the following classifiers  
+a. Logistic Regression  
+b. Decision Tree  
+c. KNN  
+d. Random Forest  
+e. Adaptive Boosting  
 
 We have already used two ensemble methods - Random Forests (Averaging) and Adaptive Boosting (Boosting) – as our base models. To improve accuracy, we combined different classifiers using a Voting Classifier (with and without weights), which is also an ensemble method.
 
