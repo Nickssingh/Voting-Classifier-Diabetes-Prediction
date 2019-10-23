@@ -48,9 +48,16 @@ Following are the accuracies of the base models and the Voting Classifier.
 
 ![](Voting_Classifier_Images/Accuracies.png)
 
-- Among the base models, Logistic Regression, KNN, and Random Forest performed the best.
-- Voting Classifier without weights improved the accuracy to 80.52%.
-- Voting Classifier with weights slightly improved the accuracy to 81.39%. Following weights were given to the different base models. Heavier weights were assigned to the better performing models.
+- Accuracies of the base models:  
+  *Logistic Regression*: 77.92%  
+  *KNN*:77.92%  
+  *Decision Tree*: 74.46%  
+  *Random Forest*:77.92%  
+  *AdaBoost*:72.73%  
+  
+- *Voting Classifier without weights* improved the accuracy to **80.52%**.
+- *Voting Classifier with weights* slightly further improved the accuracy to **81.39%**.  
+Following weights were given to the different base models. Heavier weights were assigned to the better performing models.  
 
 
 | Model  | Weight |
